@@ -10,7 +10,7 @@ lst = list(input('Введите список чисел через пробел
 
 lst_unique = []
 lst_repeat = []
-lst_wo_double = list(set(lst))  # удаление дубликатов
+lst_wo_double = list(set(lst)) 
 
 for i in lst:
     if i not in lst_unique:
